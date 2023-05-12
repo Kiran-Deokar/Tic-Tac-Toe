@@ -6,11 +6,11 @@ $(document).ready(function () {
 $("td").click(function () {
   x++;
   if (x % 2 == 0) {
-    $(this).html("x");
+    $(this).html("<i class='fa-solid fa-x fa-bounce'></i>");
     $(this).css({pointerEvents: "none"})
     w[$(this).attr("id")] = "X";
   } else {
-    $(this).html("O");
+    $(this).html("<i class='fa-solid fa-o fa-bounce'></i>");
     $(this).css({pointerEvents: "none"})
     w[$(this).attr("id")] = "O";
   }
