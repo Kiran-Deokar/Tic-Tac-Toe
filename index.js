@@ -1,8 +1,6 @@
 let w = [];
 let x = 0;
-$(document).ready(function () {   
-   
-})
+
 $("td").click(function () {
   x++;
   if (x % 2 == 0) {
